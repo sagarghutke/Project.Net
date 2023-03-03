@@ -1,0 +1,38 @@
+.bordered-table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color:rgb(135, 207, 138);
+  }
+  
+  .bordered-table td, .bordered-table th {
+    border: 1px solid rgb(89, 9, 237);
+    padding: 8px;
+    border-radius: 0;
+  }
+  
+  .bordered-table th {
+    background-color: #15dd76;
+    font-weight: bold;
+  }
+  .bordered-table th:first-child{
+    border-top-left-radius:20px ;
+  }
+  .bordered-table th:last-child{
+    border-top-right-radius: 20px;
+  }
+  .bordered-table td:first-child{
+    border-bottom-left-radius:20px ;
+  }
+  .bordered-table td:last-child{
+    border-bottom-right-radius:20px ;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item {
+    width: 33%; /* or any other value that adds up to less than 100% */
+}
